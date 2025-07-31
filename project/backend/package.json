@@ -9,7 +9,7 @@
     "start": "node backend/src/server.js",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
-    "db:seed": "node src/utils/seed.js"
+    "db:seed": "backend/node src/utils/seed.js"
   },
   "dependencies": {
     "@prisma/client": "^5.7.1",
