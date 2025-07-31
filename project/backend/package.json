@@ -5,8 +5,8 @@
   "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
+    "dev": "nodemon backend/src/server.js",
+    "start": "node backend/src/server.js",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:seed": "node src/utils/seed.js"
