@@ -4,13 +4,16 @@
   "description": "Urban-IT Ledger Backend API",
   "main": "src/server.js",
   "type": "module",
+  
   "scripts": {
-    "prepare": "prisma generate",
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
-    "db:push": "prisma db push",
-    "db:seed": "node src/utils/seed.js"
-  },
+  "postinstall": "prisma generate",
+  "prepare": "prisma generate",
+  "dev": "nodemon src/server.js",
+  "start": "node src/server.js",
+  "db:push": "prisma db push",
+  "db:seed": "node src/utils/seed.js"
+}
+
   "dependencies": {
     "@prisma/client": "^5.13.0",
     "bcryptjs": "^2.4.3",
