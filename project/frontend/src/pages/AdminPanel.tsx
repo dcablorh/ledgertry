@@ -33,7 +33,7 @@ const AdminPanel: React.FC = () => {
   const fetchUsers = async () => {
     try {
       const token = localStorage.getItem('token');
-      const response = await axios.get('http://localhost:6001/admin/users', {
+      const response = await axios.get('https://ledgertry.onrender.com/admin/users', {
         headers: {
           Authorization: `Bearer ${token}`
         }
