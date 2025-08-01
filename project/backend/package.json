@@ -12,7 +12,7 @@
   "start": "node src/server.js",
   "db:push": "prisma db push",
   "db:seed": "node src/utils/seed.js"
-}
+},
 
   "dependencies": {
     "@prisma/client": "^5.13.0",
