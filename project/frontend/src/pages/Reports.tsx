@@ -100,9 +100,18 @@ const Reports: React.FC = () => {
               onChange={(e) => setSelectedYear(parseInt(e.target.value))}
               className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
             >
+              <option value={2023}>2024</option>
               <option value={2024}>2024</option>
               <option value={2025}>2025</option>
               <option value={2026}>2026</option>
+              <option value={2027}>2027</option>
+              <option value={2028}>2028</option>
+              <option value={2029}>2029</option>
+              <option value={2030}>2030</option>
+              <option value={2031}>2031</option>
+              <option value={2032}>2032</option>
+
+              
             </select>
           </div>
           <div>
