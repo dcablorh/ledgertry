@@ -5,11 +5,12 @@
   "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
-    "db:generate": "prisma generate",
-    "db:push": "prisma db push",
-    "db:seed": "node src/utils/seed.js"
+  "dev": "nodemon src/server.js",
+  "start": "node src/server.js",
+  "db:generate": "prisma generate",
+  "db:push": "prisma db push",
+  "db:seed": "node src/utils/seed.js",
+  "postinstall": "npx prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.7.1",
